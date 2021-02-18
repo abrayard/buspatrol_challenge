@@ -18,7 +18,6 @@ Welcome to your coding challenge! Using python 3, flask, and sqlite create a web
 ```
 
 #Setup:
-1. Install dependencies:
-   * `pip3 install flask flask_restful requests`
+1. Install dependencies: `pip3 install flask flask_restful requests`
 2. Run `python3 main.py` from the main directory in your terminal.
 3. Open another terminal and run `python3 test.py` to test the GET request and confirm the json output.
