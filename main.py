@@ -15,13 +15,12 @@ class Users(Resource):
 		with con:
 			cur = con.cursor()
 			
-			# 
 			cur.execute(f'''
 				select title, description
 				from jobs
 				where id = (select job 
-							from users 
-							where "{name}" = name)
+				            from users 
+				            where "{name}" = name)
 			''')
 
 			attribute = cur.fetchone()
