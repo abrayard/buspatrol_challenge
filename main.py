@@ -11,7 +11,6 @@ api = Api(app)
 class Users(Resource):
 
 	def get(self, name=""):
-
 		# Sanitizing name input in attempt to prevent sql injections
 		name = name.split(" ")[0]
 
@@ -19,7 +18,7 @@ class Users(Resource):
 		con = lite.connect('buspatrol.db')
 		
 		with con:
-			# Cursor object is used to traverse records in the results for the execute query
+			# Cursor object is used to traverse records and execute queries
 			cur = con.cursor()
 			
 			# Execute query to give the title and description of a valid user from users.  
