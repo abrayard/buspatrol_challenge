@@ -22,7 +22,7 @@ GET Request from http://127.0.0.1:5000/users/gene
 ```
 
 ## Setup:
-*Before setting up, it is assumed you have Python 3.6.x or higher installed and that you have basic command line knowledge. This setup has been tested on Ubuntu 20.04; Steps could vary for a Windows machine.*
+*Before setting up, it is assumed you have Python 3.6.x or higher installed. This setup has been tested on Ubuntu 20.04; Steps could vary for a Windows machine.*
 
 1. Open your terminal, and install dependencies for the Python program by running: `pip3 install flask flask_restful requests`.
 2. After installing dependencies and cloning this repository, navigate to `buspatrol_challenge/` and run the command `python3 main.py`.
