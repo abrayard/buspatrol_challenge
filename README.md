@@ -33,5 +33,5 @@ GET Request from http://127.0.0.1:5000/users/gene
 **1.** Open your terminal, and install dependencies for the Python program by running: `pip3 install flask flask_restful requests`. <br><br>
 **2.** After installing dependencies and cloning this repository, navigate to `buspatrol_challenge/` and run the command `python3 main.py`. <br><br>
 **3.** You will be prompted with the default host set to be http://127.0.0.1:5000/. No index page is set, however you should still be able to open a browser and navigate to the following url: http://127.0.0.1:5000/users/gene. The output should be in JSON format with the user's job title and job description. <br><br>
-**4.** (Optional) Open another terminal, navigate to the `buspatrol_challenge/` and run the command `python3 test.py` to test the GET request and confirm the json output with the small tester. <br><br>
+**4.** *(Optional)* Open another terminal, navigate to the `buspatrol_challenge/` and run the command `python3 test.py` to test the GET request and confirm the json output with the small tester. <br><br>
 
