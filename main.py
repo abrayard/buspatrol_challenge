@@ -27,7 +27,7 @@ class Users(Resource):
 				from jobs
 				where id = (select job 
 				            from users 
-				            where "{name}"is not null and "{name}" = name)
+				            where "{name}" = name)
 			''')
 
 			# Fetches the first row from the execute query as a tuple
